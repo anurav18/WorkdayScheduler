@@ -64,14 +64,15 @@ function textInputColor(str,col2)
 
     if(textareaHour > currentHour)
     {
-        col2.attr("style","background-color:green");
+        col2.addClass("future");
     }
     else if (textareaHour < currentHour)
     {
-        col2.attr("style","background-color:white");
+        col2.addClass("past");
     }
-    else {
-        col2.attr("style","background-color:red");
+    else 
+    {
+        col2.addClass("present");
     }
 }
 

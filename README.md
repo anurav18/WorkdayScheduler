@@ -14,7 +14,7 @@ This is a day scheduler for an entire work day, It has dedicated blocks for each
 
 ## Quick Demo
 
-[!Demo](/Assets/dayplanner.gif)
+[Demo](/Assets/dayplanner.gif)
 
 ## Technologies Used
 
